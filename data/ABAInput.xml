@@ -1,0 +1,46 @@
+<data>
+    <item type='simulate' value='true'>
+        <docPath sheetName='demo'>D:\ABASystem\data\data.xlsx</docPath>		
+        <devColName>Assignee</devColName>
+        <descColName>Summary</descColName>
+        <trainDataFraction>0.8</trainDataFraction>
+    </item>
+    <item type='simulate' value='false'>
+        <docPath sheetName='bugs-2018-09-29_eclipse'>D:\ABASystem\data\data.xlsx</docPath>
+        <devColName>Assignee</devColName>
+        <descColName>Summary,Product,Component</descColName>
+        <trainDataFraction>0.8</trainDataFraction>
+    </item>
+    <item type='simulate' value='false'>
+        <docPath sheetName='CamWorks'>D:\ABASystem\data\data.xlsx</docPath>
+        <devColName>Assignee</devColName>
+        <descColName>Summary</descColName>
+        <trainDataFraction>0.8</trainDataFraction>
+    </item>
+	<item type='train' value='true'>
+        <docPath sheetName='demo'>D:\ABASystem\data\data.xlsx</docPath>
+        <devColName>Assignee</devColName>
+        <descColName>Summary</descColName>
+        <trainOutputFile>D:\ABASystem\data\ABATrainData.xml</trainOutputFile>
+    </item>
+    <item type='train' value='false'>
+        <docPath sheetName='bugs-2018-09-29_eclipse'>D:\ABASystem\data\data.xlsx</docPath>
+        <devColName>Assignee</devColName>
+        <descColName>Summary,Product,Component</descColName>
+		<trainOutputFile>D:\ABASystem\data\ABATrainData.xml</trainOutputFile>        
+    </item>
+    <item type='query' value='true'>
+        <docPath sheetName='demo'>D:\ABASystem\data\data_query.xlsx</docPath>
+		<devColName>Assignee</devColName>
+		<descColName>Summary</descColName>
+		<bugIdColName>Bug ID</bugIdColName>
+        <trainInputFile>D:\ABASystem\data\ABATrainData.xml</trainInputFile>
+    </item>
+	<item type='query' value='false'>
+        <docPath sheetName=''>D:\ABASystem\data\bugs-2018-09-29_eclipse_query.xlsx</docPath>
+		<devColName>Assignee</devColName>
+		<descColName>Summary,Product,Component</descColName>
+		<bugIdColName>Bug ID</bugIdColName>
+        <trainInputFile>D:\ABASystem\data\ABATrainData.xml</trainInputFile>
+    </item>	
+</data>
