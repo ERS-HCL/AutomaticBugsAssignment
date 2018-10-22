@@ -16,6 +16,7 @@ The system can run in three modes:
 * Query mode : This can be used to assign new bug reports to developers.
 >      $ AutomaticBugAssignment.py -f <PATH_TO_CONFIG_FILE> -t query  
   
+Sample configuration file (ABAInput.xml) and data file (Data.xlsx & Data_query.xlsx) are provided in data folder of the repository.
   
 [For detailed help of the topic please download 'Automatic assignment of issues or bugs.pptx' presentation in the docs folder of repository. ](https://github.com/ERS-HCL/AutomaticBugsAssignment/blob/master/docs/Automatic%20assignment%20of%20issues%20or%20bugs.pptx)
 
