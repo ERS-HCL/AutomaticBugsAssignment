@@ -14,8 +14,10 @@ The system can run in three modes:
 * Training mode : This can be used to train system so that there is correspondence of developer with bugs they fixed.
 >      $ AutomaticBugAssignment.py -f <PATH_TO_CONFIG_FILE> -t train
 * Query mode : This can be used to assign new bug reports to developers.
->      $ AutomaticBugAssignment.py -f <PATH_TO_CONFIG_FILE> -t query
-
+>      $ AutomaticBugAssignment.py -f <PATH_TO_CONFIG_FILE> -t query  
+  
+  
+[For detailed help of the topic please download 'Automatic assignment of issues or bugs.pptx' presentation in the docs folder of repository. ](https://github.com/ERS-HCL/AutomaticBugsAssignment/blob/master/docs/Automatic%20assignment%20of%20issues%20or%20bugs.pptx)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
